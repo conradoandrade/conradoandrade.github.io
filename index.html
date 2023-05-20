@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Windows 98 Style</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/apps.css">
+</head>
+<body>
+
+
+
+
+    <div id="enter">
+        <button id="enterButton" title="Enter">
+
+            <div class="tooltip-container">
+                Start
+                <div id="tooltip" class="tooltip">
+                    Click Me
+                </div>
+            </div>
+
+        </button>
+        <div class="pallete"><img src="img/commons/palette.png" alt="Pallet" /></div>
+    </div>
+
+    <div class="desktop" id="desktop">
+
+    </div>
+    <ul class="context-menu" id="contextMenu">
+        <li id="openFolder">Open</li>
+        <li id="closeFolder">Close</li>
+    </ul>
+
+
+    <div id="start_menu" class="start-menu" style="display: none;">
+        <div class="user_start">
+            <div class="user_img"><img src="img/icos/1.png"></div>
+            <div class="user_Name">Conrado Andrade</div>
+        </div>
+    </div>
+
+    <div class="taskbar">
+        <div id="tbar_start" onclick="toggleStartMenu()">Start</div>
+        <div class="tbar_tasks">tasks</div>
+        <div class="tbar_clock">tasks</div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+    <script src="modal.js"></script>
+    <script src="folder.js"></script>
+    <script src="apps.js"></script>
+
+
+</body>
+</html>

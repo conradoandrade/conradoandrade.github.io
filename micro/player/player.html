@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Radio</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="volumeBackground"></div>
+        <div class="area">
+            <div class="radio_content">
+                <div id="radio">
+                    <div id="player-container">
+                        <iframe
+                            id="player"
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/cVibfBy77Yg?theme=dark&amp;autohide=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=0&amp;controls=0&amp;disablekb=1&amp;fs=0&amp;rel=0&amp;iv_load_policy=3&amp;enablejsapi=1"
+                            frameborder="0"
+                            allow="autoplay; encrypted-media"
+                            allowtransparency="true"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="controls-row">
+                        <button id="btnplay">PLAY</button>
+                        <button id="btnpause">PAUSE</button>
+                    </div>
+                    <div class="controls-row">
+                        <button id="btnvolumeup">+</button>
+                        <button id="btnvolumedown">-</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

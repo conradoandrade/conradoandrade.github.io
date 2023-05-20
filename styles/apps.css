@@ -1,0 +1,8 @@
+#clippyContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #ff00001a;
+    width: 100%;
+    height: 200px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Folder Structure</title>
+
+</head>
+<body>
+    <nav id="top-bar">
+        <button disabled>File</button>
+        <button disabled>Edit</button>
+        <button disabled>View</button>
+        <button disabled>Favorites</button>
+        <button disabled>Tools</button>
+        <button disabled>Help</button>
+</nav>
+
+    <div class="button-bar">
+        <button id="back-button" disabled>Back</button>
+        <button id="home-button">Home</button>
+    </div>
+
+    <div id="search" style="display:none;">
+        <input id="search-input" type="text" placeholder="Search by name, tag or year">
+    </div>
+
+    <div id="panels">
+        <div id="left-panel">
+            <h1>Years</h1>
+        </div>
+        <div id="right-panel">
+            <div id="folder-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
